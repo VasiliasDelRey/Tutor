@@ -1,0 +1,68 @@
+print("Hello World") 
+if (5 < 2):
+    print("True")
+
+else:
+    print("False")
+
+for i in range (1, 15): #This is a loop from range 1 to 15
+    print("Hello World")
+
+x = "I'm a G"
+print(len(x))
+
+a,b,c = 4,6,2
+print(a,b,c) #Output produced will be the individual values of the variables a,b,c
+
+def func(): # Local Variable because func = "Awesome"
+    print("Awesome")
+func()
+
+def myfunc():
+    global m
+    m = "Great" # Global variable as it can be used outside the function
+myfunc()
+print("I am " + m)    
+
+l = 5
+print(type(l))
+
+d = 35e2 #Scientific number. e represents 10^n, where n is the power
+print(d)
+
+z = 5j
+print(z)
+
+c = "Elephant"
+print(c[2]) #0 is the first character which would be E
+
+txt = "Best in life"
+print("life" in txt) # It is case-sensitive
+print(txt[3])
+v = float(4)
+print(v)
+
+gg = "Hello, World!"
+print(gg.upper())
+print(gg.lower())
+
+ma = " You are a bitch "
+print(ma.strip())
+
+print("Dawg".replace("D","B"))
+print("Sami Zayn".split())
+
+age =36
+txt = "My name is John, I am {}" # {} works like %d and %f in C Programming
+print(txt.format(age)) 
+
+print(3**4) # Similar to 3*3*3*3
+#Therefore, 3**2 is square
+
+print(9//2) # // rounds down to nearest whole number
+
+ddt = 10
+if (ddt>3 or ddt<7): #and an & are logical AND. Similar to && in C programming
+    print("True")
+else:
+    print("Naah")
